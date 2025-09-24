@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern E-Shop</title>
+  <link href="./style.css" rel="stylesheet">
+</head>
+<body class="bg-white">
+
+  <!-- HEADER -->
+  <header class="bg-white border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center py-6">
+        <!-- Logo -->
+        <a href="Front Page.html" class="flex items-center">
+          <div class="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center">
+            <span class="text-white font-bold text-sm">W</span>
+          </div>
+          <span class="ml-2 text-xl font-bold text-gray-900">Wave</span>
+        </a>
+
+        <!-- Navigation -->
+        <nav class="hidden md:flex space-x-8">
+          <a href="Women.html" class="text-gray-900 hover:text-purple-600 font-medium">Women</a>
+          <a href="Men.html" class="text-gray-900 hover:text-purple-600 font-medium">Men</a>
+          <a href="Store.html" class="text-gray-900 hover:text-purple-600 font-medium">Stores</a>
+        </nav>
+
+        <!-- Right side actions -->
+        <div class="flex items-center space-x-4">
+          <div class="flex items-center space-x-1">
+          </div>
+          <button class="text-gray-900 hover:text-purple-600">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+          </button>
+          <button class="text-gray-900 hover:text-purple-600 relative">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13l2.5 5m6-5v6a2 2 0 01-2 2H9a2 2 0 01-2-2v-6m8 0V9a2 2 0 00-2-2H9a2 2 0 00-2 2v4.01"></path>
+            </svg>
+            <span class="absolute -top-2 -right-2 bg-purple-600 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <!-- Left side - Text content -->
+        <div>
+          <h1 class="text-5xl font-bold text-gray-900 mb-6">Summer styles are finally here</h1>
+          <p class="text-lg text-gray-600 mb-8">This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care if you live or die.</p>
+          <a href="Store.html" class="bg-purple-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors">
+            Shop Collection
+          </a>
+        </div>
+
+        <!-- Right side - Product grid -->
+        <div class="grid grid-cols-2 gap-4">
+          <div class="space-y-4">
+            <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=400&fit=crop" alt="Model 1" class="w-full h-full object-cover">
+            </div>
+            <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Model 2" class="w-full h-full object-cover">
+            </div>
+            <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop" alt="Model 3" class="w-full h-full object-cover">
+            </div>
+          </div>
+          <div class="space-y-4 mt-8">
+            <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop" alt="Model 4" class="w-full h-full object-cover">
+            </div>
+            <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop" alt="Model 5" class="w-full h-full object-cover">
+            </div>
+            <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop" alt="Model 6" class="w-full h-full object-cover">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOP BY CATEGORY -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center mb-8">
+        <h2 class="text-3xl font-bold text-gray-900">Shop by Category</h2>
+        <a href="#" class="text-purple-600 hover:text-purple-700 font-medium">Browse all categories →</a>
+      </div>
+      
+      <div class="grid gap-8 md:grid-cols-2 md:auto-rows-[260px]">
+        <!-- Left: Tall feature card -->
+        <a href="#" class="relative group cursor-pointer rounded-lg overflow-hidden md:row-span-2">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&h=900&fit=crop" alt="New Arrivals" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          <div class="absolute inset-0 bg-black/20"></div>
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-bold">New Arrivals</h3>
+            <p class="text-sm">Shop now</p>
+          </div>
+        </a>
+
+        <!-- Right: Top card -->
+        <a href="#" class="relative group cursor-pointer rounded-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=900&h=600&fit=crop" alt="Accessories" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          <div class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-all duration-300"></div>
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-bold">Accessories</h3>
+            <p class="text-sm">Shop now</p>
+          </div>
+        </a>
+
+        <!-- Right: Bottom card -->
+        <a href="#" class="relative group cursor-pointer rounded-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=900&h=600&fit=crop" alt="Workspace" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          <div class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-all duration-300"></div>
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-bold">Workspace</h3>
+            <p class="text-sm">Shop now</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR FAVORITES -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center mb-8">
+        <h2 class="text-3xl font-bold text-gray-900">Our Favorites</h2>
+        <a href="#" class="text-purple-600 hover:text-purple-700 font-medium">Browse all favorites →</a>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Product 1 -->
+        <a href="#" class="relative group cursor-pointer rounded-lg overflow-hidden block">
+          <div class="aspect-[3/4] bg-gray-100">
+            <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&h=1066&fit=crop" alt="Black Basic Tee" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-bold">Black Basic Tee</h3>
+            <p class="text-sm opacity-90">$32</p>
+          </div>
+        </a>
+
+        <!-- Product 2 -->
+        <a href="#" class="relative group cursor-pointer rounded-lg overflow-hidden block">
+          <div class="aspect-[3/4] bg-gray-100">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=800&h=1066&fit=crop" alt="Off-White Basic Tee" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-bold">Off-White Basic Tee</h3>
+            <p class="text-sm opacity-90">$32</p>
+          </div>
+        </a>
+
+        <!-- Product 3 -->
+        <a href="#" class="relative group cursor-pointer rounded-lg overflow-hidden block">
+          <div class="aspect-[3/4] bg-gray-100">
+            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=800&h=1066&fit=crop" alt="Mountains Artwork Tee" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="text-xl font-bold">Mountains Artwork Tee</h3>
+            <p class="text-sm opacity-90">$36</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-white border-t border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+        <!-- Shop -->
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-4">Shop</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Bags</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Tees</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Objects</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Home Goods</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Accessories</a></li>
+          </ul>
+        </div>
+
+        <!-- Company -->
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-4">Company</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Who we are</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Sustainability</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Press</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Careers</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Terms & Conditions</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Privacy</a></li>
+          </ul>
+        </div>
+
+        <!-- Account -->
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-4">Account</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Manage Account</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Returns & Exchanges</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Redeem a Gift Card</a></li>
+          </ul>
+        </div>
+
+        <!-- Connect -->
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-4">Connect</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Contact Us</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Facebook</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Instagram</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-purple-600">Pinterest</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div>
+          <h3 class="font-semibold text-gray-900 mb-4">Sign up for our newsletter</h3>
+          <p class="text-gray-600 mb-4">The latest deals and savings, sent to your inbox weekly.</p>
+          <div class="flex">
+            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
+            <button class="bg-purple-600 text-white px-6 py-2 rounded-r-lg hover:bg-purple-700 transition-colors">Sign up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-200 mt-8 pt-8">
+        <p class="text-gray-500 text-sm">Copyright © 2025 Your Company, Inc.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
